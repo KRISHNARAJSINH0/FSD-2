@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/feedback" method="post">
+        <fieldset>
+            <legend>FeedBack</legend>
+            Name : <input type="text" name = "name"><br><br>
+            Email : <input type="email" name="email"><br><br>
+            <textarea name="msg" rows="10" cols="10">Message</textarea><br><br>
+            Rating : 
+            <input type="radio" name = "feed" value = "Bad">Bad
+            <input type="radio" name = "feed" value = "Average">Average
+            <input type="radio" name = "feed" value = "Good">Good
+            <input type="radio" name = "feed" value = "Very Good">Very Good
+            <input type="radio" name = "feed" value = "Excellent">Excellent
+            <br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+const express = require("express")
+const app = express()
+const path = require("path")
+const staticpath = path.join(__dirname,"../")
+app.use(express.static(staticpath))
+app.listen(3050)

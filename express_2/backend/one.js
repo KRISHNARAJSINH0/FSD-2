@@ -1,0 +1,6 @@
+var express = require("express")
+var app = express()
+var path = require("path")
+const staticpath = path.join(__dirname,"../frontend")
+app.use(express.static(staticpath))
+app.listen(3020)
